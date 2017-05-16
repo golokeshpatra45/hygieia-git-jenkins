@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.14" icons="true" automaticImage="PNG">  
+  <object id="1" language="java" name="com.capitalone.dashboard.Application" project="github-scm-collector" 
+    file="/github-scm-collector/src/main/java/com/capitalone/dashboard/Application.java" binary="false" 
+    label="application" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="790" y="0"/>    
+    <execution id="2">      
+      <position height="72" width="154" x="5" y="183"/>    
+    </execution>    
+    <execution id="5">      
+      <position height="24" width="154" x="5" y="486"/>    
+    </execution>    
+    <execution id="6">      
+      <position height="72" width="154" x="5" y="543"/>    
+    </execution>  
+  </object>  
+  <object id="9" language="java" name="com.capitalone.dashboard.repository.GitHubRepoRepository" 
+    project="github-scm-collector" 
+    file="/github-scm-collector/src/main/java/com/capitalone/dashboard/repository/GitHubRepoRepository.java" 
+    binary="false" label="gitHubRepoRepository" type="interface" autoSize="true">    
+    <position height="-1" width="-1" x="790" y="0"/>  
+  </object>  
+  <object id="10" language="java" name="com.capitalone.dashboard.model.GitHubRepo" project="github-scm-collector" 
+    file="/github-scm-collector/src/main/java/com/capitalone/dashboard/model/GitHubRepo.java" binary="false" 
+    label="gitHubRepo" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="790" y="0"/>  
+  </object>  
+  <object id="11" language="java" name="org.springframework.boot.autoconfigure.SpringBootApplication" 
+    project="springboot-rest-api-demo-master" 
+    file="C:/Users/patrag/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.2.3.RELEASE/spring-boot-autoconfigure-1.2.3.RELEASE.jar" 
+    binary="true" label="springBootApplication" type="annotation" autoSize="true">    
+    <position height="-1" width="-1" x="1180" y="0"/>    
+    <execution id="4">      
+      <position height="24" width="226" x="574" y="207"/>    
+    </execution>    
+    <execution id="12">      
+      <position height="72" width="226" x="574" y="254"/>    
+    </execution>  
+  </object>  
+  <object id="15" language="java" name="com.capitalone.dashboard.collector.RestOperationsSupplier" 
+    project="github-scm-collector" 
+    file="/github-scm-collector/src/main/java/com/capitalone/dashboard/collector/RestOperationsSupplier.java" 
+    binary="false" label="restOperationsSupplier" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="790" y="0"/>  
+  </object>  
+  <object id="16" language="java" name="com.capitalone.dashboard.collector.GitHubSettings" 
+    project="github-scm-collector" 
+    file="/github-scm-collector/src/main/java/com/capitalone/dashboard/collector/GitHubSettings.java" binary="false" 
+    label="gitHubSettings" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="790" y="0"/>    
+    <execution id="17">      
+      <position height="24" width="203" x="1011" y="410"/>    
+    </execution>    
+    <execution id="18">      
+      <position height="72" width="203" x="1011" y="462"/>    
+    </execution>  
+  </object>  
+  <object id="20" language="java" name="com.capitalone.dashboard.collector.GitHubCollectorTask" 
+    project="github-scm-collector" 
+    file="/github-scm-collector/src/main/java/com/capitalone/dashboard/collector/GitHubCollectorTask.java" 
+    binary="false" label="gitHubCollectorTask" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="790" y="0"/>  
+  </object>  
+  <object id="21" language="java" name="com.capitalone.dashboard.collector.GitHubClient" project="github-scm-collector" 
+    file="/github-scm-collector/src/main/java/com/capitalone/dashboard/collector/GitHubClient.java" binary="false" 
+    label="gitHubClient" type="interface" autoSize="true">    
+    <position height="-1" width="-1" x="790" y="0"/>  
+  </object>  
+  <object id="22" language="java" name="com.capitalone.dashboard.collector.DefaultGitHubClient" 
+    project="github-scm-collector" 
+    file="/github-scm-collector/src/main/java/com/capitalone/dashboard/collector/DefaultGitHubClient.java" 
+    binary="false" label="defaultGitHubClient" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="790" y="0"/>    
+    <execution id="14">      
+      <position height="24" width="203" x="1632" y="278"/>    
+    </execution>    
+    <execution id="23">      
+      <position height="72" width="203" x="1632" y="386"/>    
+    </execution>  
+  </object>  
+  <object id="25" language="java" name="org.springframework.boot.SpringApplication" project="example" 
+    file="C:/Users/patrag/.m2/repository/org/springframework/boot/spring-boot/1.5.2.RELEASE/spring-boot-1.5.2.RELEASE.jar" 
+    binary="true" label="springApplication" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="1147" y="0"/>    
+    <execution id="8">      
+      <position height="24" width="148" x="1839" y="567"/>    
+    </execution>    
+    <execution id="26">      
+      <position height="96" width="148" x="1839" y="722"/>    
+    </execution>    
+    <execution id="28">      
+      <position height="24" width="148" x="1839" y="770"/>    
+    </execution>  
+  </object>  
+  <note id="29">    
+    <position height="38" width="590" x="91" y="164"/>    
+    <text><![CDATA[SpringBootApplication starts off with autoconfig.,componentscan and various other startup jobs.]]>
+    </text>  
+  </note>  
+  <note id="30">    
+    <position height="51" width="1018" x="694" y="281"/>    
+    <text><![CDATA[]]>
+    </text>  
+  </note>  
+  <note id="31">    
+    <position height="37" width="1791" x="91" y="577"/>    
+    <text><![CDATA[ConfigurableApplicationContext	run()]]>
+    </text>  
+  </note>  
+  <note id="32">    
+    <position height="100" width="200" x="2039" y="677"/>    
+    <text><![CDATA[]]>
+    </text>  
+  </note>  
+  <message id="3" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="7" asynchronous="false">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="13" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="19" operation="main(java.lang.String[]):void" asynchronous="false">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="5"/>  
+  </message>  
+  <message id="24" operation="getKey():java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="17"/>  
+  </message>  
+  <message id="27" operation="SpringApplication(java.lang.Object[])" asynchronous="false">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="28"/>  
+  </message>
+</sequence-diagram>
